@@ -1,0 +1,187 @@
+Entity,Code,Per capita plastic waste (kg/person/day),Plastic_Pollution_Score,Country_code
+Albania,ALB,0.069,2,ALB
+Algeria,DZA,0.144,3,DZA
+Angola,AGO,0.062,2,AGO
+Anguilla,AIA,0.252,4,AIA
+Antigua and Barbuda,ATG,0.66,10,ATG
+Argentina,ARG,0.183,3,ARG
+Aruba,ABW,0.252,4,ABW
+Australia,AUS,0.112,2,AUS
+Bahamas,BHS,0.39,6,BHS
+Bahrain,BHR,0.132,3,BHR
+Bangladesh,BGD,0.034,1,BGD
+Barbados,BRB,0.57,8,BRB
+Belgium,BEL,0.08,2,BEL
+Belize,BLZ,0.172,3,BLZ
+Benin,BEN,0.043,1,BEN
+Bermuda,BMU,0.252,4,BMU
+Bosnia and Herzegovina,BIH,0.144,3,BIH
+Brazil,BRA,0.165,3,BRA
+British Virgin Islands,VGB,0.252,4,VGB
+Brunei,BRN,0.026,1,
+Bulgaria,BGR,0.154,3,BGR
+Cambodia,KHM,0.066,2,KHM
+Cameroon,CMR,0.046,1,CMR
+Canada,CAN,0.093,2,CAN
+Cape Verde,CPV,0.065,2,
+Cayman Islands,CYM,0.252,4,CYM
+Channel Islands,OWID_CIS,0.252,4,
+Chile,CHL,0.119,2,CHL
+China,CHN,0.121,2,CHN
+Christmas Island,CXR,0.252,4,CXR
+Cocos Islands,CCK,0.252,4,
+Colombia,COL,0.144,3,COL
+Comoros,COM,0.201,4,COM
+Congo,COG,0.069,2,COG
+Cook Islands,COK,0.144,3,COK
+Costa Rica,CRI,0.258,4,CRI
+Cote d'Ivoire,CIV,0.103,2,
+Croatia,HRV,0.252,4,HRV
+Cuba,CUB,0.089,2,CUB
+Curacao,CUW,0.252,4,
+Cyprus,CYP,0.248,4,CYP
+Democratic Republic of Congo,COD,0.045,1,
+Denmark,DNK,0.047,1,DNK
+Djibouti,DJI,0.103,2,DJI
+Dominica,DMA,0.149,3,DMA
+Dominican Republic,DOM,0.144,3,DOM
+Ecuador,ECU,0.147,3,ECU
+Egypt,EGY,0.178,3,EGY
+El Salvador,SLV,0.147,3,SLV
+Equatorial Guinea,GNQ,0.144,3,GNQ
+Eritrea,ERI,0.045,1,ERI
+Estonia,EST,0.176,3,EST
+Falkland Islands,FLK,0.252,4,
+Faroe Islands,FRO,0.252,4,FRO
+Fiji,FJI,0.189,3,FJI
+Finland,FIN,0.234,4,FIN
+France,FRA,0.192,3,FRA
+French Guiana,GUF,0.144,3,GUF
+French Polynesia,PYF,0.252,4,PYF
+Gabon,GAB,0.054,2,GAB
+Gambia,GMB,0.048,2,GMB
+Georgia,GEO,0.068,2,GEO
+Germany,DEU,0.485,7,DEU
+Ghana,GHA,0.04,1,GHA
+Gibraltar,GIB,0.252,4,GIB
+Greece,GRC,0.2,4,GRC
+Greenland,GRL,0.252,4,GRL
+Grenada,GRD,0.325,5,GRD
+Guadeloupe,GLP,0.144,3,GLP
+Guam,GUM,0.252,4,GUM
+Guatemala,GTM,0.28,5,GTM
+Guernsey,GGY,0.252,4,GGY
+Guinea,GIN,0.03,1,GIN
+Guinea-Bissau,GNB,0.054,2,GNB
+Guyana,GUY,0.586,9,GUY
+Haiti,HTI,0.09,2,HTI
+Honduras,HND,0.189,3,HND
+Hong Kong,HKG,0.398,6,HKG
+Iceland,ISL,0.281,5,ISL
+India,IND,0.01,1,IND
+Indonesia,IDN,0.057,2,IDN
+Iran,IRN,0.144,3,IRN
+Iraq,IRQ,0.103,2,IRQ
+Ireland,IRL,0.43,7,IRL
+Israel,ISR,0.297,5,ISR
+Italy,ITA,0.134,3,ITA
+Jamaica,JAM,0.034,1,JAM
+Japan,JPN,0.171,3,JPN
+Jordan,JOR,0.144,3,JOR
+Kenya,KEN,0.027,1,KEN
+Kiribati,KIR,0.103,2,KIR
+Kuwait,KWT,0.686,10,KWT
+Latvia,LVA,0.124,3,LVA
+Lebanon,LBN,0.094,2,LBN
+Liberia,LBR,0.084,2,LBR
+Libya,LBY,0.144,3,LBY
+Lithuania,LTU,0.132,3,LTU
+Macao,MAC,0.368,6,MAC
+Madagascar,MDG,0.016,1,MDG
+Malaysia,MYS,0.198,4,MYS
+Maldives,MDV,0.322,5,MDV
+Malta,MLT,0.214,4,MLT
+Marshall Islands,MHL,0.192,3,MHL
+Martinique,MTQ,0.252,4,MTQ
+Mauritania,MRT,0.045,1,MRT
+Mauritius,MUS,0.23,4,MUS
+Mexico,MEX,0.087,2,MEX
+Micronesia (country),FSM,0.103,2,
+Monaco,MCO,0.252,4,MCO
+Montenegro,MNE,0.144,3,MNE
+Montserrat,MSR,0.144,3,MSR
+Morocco,MAR,0.073,2,MAR
+Mozambique,MOZ,0.015,1,MOZ
+Myanmar,MMR,0.075,2,MMR
+Namibia,NAM,0.144,3,NAM
+Nauru,NRU,0.144,3,NRU
+Netherlands,NLD,0.424,7,NLD
+Netherlands Antilles,ANT,0.252,4,
+New Caledonia,NCL,0.252,4,NCL
+New Zealand,NZL,0.331,5,NZL
+Nicaragua,NIC,0.143,3,NIC
+Nigeria,NGA,0.103,2,NGA
+Niue,NIU,0.252,4,NIU
+Norfolk Island,NFK,0.103,2,NFK
+North Korea,PRK,0.054,2,PRK
+Northern Mariana Islands,MNP,0.252,4,MNP
+Norway,NOR,0.28,5,NOR
+Oman,OMN,0.084,2,OMN
+Pakistan,PAK,0.103,2,PAK
+Palau,PLW,0.144,3,PLW
+Palestine,PSE,0.063,2,
+Panama,PAN,0.145,3,PAN
+Papua New Guinea,PNG,0.103,2,PNG
+Peru,PER,0.144,3,PER
+Philippines,PHL,0.075,2,PHL
+Poland,POL,0.097,2,POL
+Portugal,PRT,0.265,4,PRT
+Puerto Rico,PRI,0.252,4,PRI
+Qatar,QAT,0.16,3,QAT
+Reunion,REU,0.144,3,
+Romania,ROU,0.042,1,ROU
+Russia,RUS,0.112,2,
+Saint Helena,SHN,0.144,3,
+Saint Kitts and Nevis,KNA,0.654,10,KNA
+Saint Lucia,LCA,0.522,8,LCA
+Saint Pierre and Miquelon,SPM,0.252,4,SPM
+Saint Vincent and the Grenadines,VCT,0.221,4,VCT
+Samoa,WSM,0.103,2,WSM
+Sao Tome and Principe,STP,0.103,2,STP
+Saudi Arabia,SAU,0.156,3,SAU
+Senegal,SEN,0.103,2,SEN
+Seychelles,SYC,0.358,6,SYC
+Sierra Leone,SLE,0.041,1,SLE
+Singapore,SGP,0.194,3,SGP
+Sint Maarten (Dutch part),SXM,0.252,4,SXM
+Slovenia,SVN,0.145,3,SVN
+Solomon Islands,SLB,0.103,2,SLB
+Somalia,SOM,0.054,2,SOM
+South Africa,ZAF,0.24,4,ZAF
+South Korea,KOR,0.112,2,KOR
+Spain,ESP,0.277,5,ESP
+Sri Lanka,LKA,0.357,6,LKA
+Sudan,SDN,0.103,2,SDN
+Suriname,SUR,0.163,3,SUR
+Sweden,SWE,0.048,2,SWE
+Syria,SYR,0.178,3,SYR
+Taiwan,TWN,0.252,4,TWN
+Tanzania,TZA,0.023,1,TZA
+Thailand,THA,0.144,3,THA
+Togo,TGO,0.057,2,TGO
+Tokelau,TKL,0.103,2,TKL
+Tonga,TON,0.223,4,TON
+Trinidad and Tobago,TTO,0.29,5,TTO
+Tunisia,TUN,0.144,3,TUN
+Turkey,TUR,0.212,4,
+Turks and Caicos Islands,TCA,0.252,4,TCA
+Tuvalu,TUV,0.144,3,TUV
+Ukraine,UKR,0.103,2,UKR
+United Arab Emirates,ARE,0.199,4,ARE
+United Kingdom,GBR,0.215,4,GBR
+United States,USA,0.335,5,USA
+Uruguay,URY,0.252,4,URY
+Vanuatu,VUT,0.295,5,VUT
+Venezuela,VEN,0.252,4,VEN
+Vietnam,VNM,0.103,2,VNM
+Yemen,YEM,0.103,2,YEM
