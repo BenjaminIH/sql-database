@@ -1,15 +1,12 @@
-SET
-    GLOBAL local_infile = 1;
-
 CREATE DATABASE IF NOT EXISTS business_trips;
 
 USE business_trips;
 
-DROP TABLE IF EXISTS populations;
+DROP TABLE IF EXISTS population;
 
 DROP TABLE IF EXISTS deforestation;
 
-CREATE TABLE populations (
+CREATE TABLE population (
     `country` VARCHAR(45) NOT NULL,
     `code` VARCHAR(8) NOT NULL,
     `year` VARCHAR(4) NOT NULL,
