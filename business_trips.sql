@@ -14,14 +14,14 @@ LEFT JOIN (
         SUM(score) AS total_score
     FROM (
         SELECT code, score FROM travel
-        UNION
+        UNION ALL
         SELECT code, score FROM deforestation
-        UNION
-        SELECT code, pollution_score AS score FROM air_pollution
-        UNION
-        SELECT code, en_score AS score FROM energy
-        UNION
-        SELECT Country_code as code, Plastic_Pollution_Score as score FROM plastic_pollution
+        UNION ALL
+        SELECT code, score FROM air_pollution
+        UNION ALL
+        SELECT code, score FROM energy
+        UNION ALL
+        SELECT code, score FROM plastic_pollution
     ) AS merged_topics
     GROUP BY code
 ) AS aggregated ON population.code = aggregated.code;
