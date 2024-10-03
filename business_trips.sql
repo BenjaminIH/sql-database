@@ -1,5 +1,7 @@
 USE business_trips_db;
 
+DROP TABLE IF EXISTS green_countries;
+CREATE TABLE green_countries AS
 SELECT 
     population.country, 
     population.code, 
@@ -15,11 +17,11 @@ LEFT JOIN (
         UNION
         SELECT code, score FROM deforestation
         UNION
-        SELECT code, pollution_score FROM air_pollution
+        SELECT code, pollution_score AS score FROM air_pollution
         UNION
-        SELECT code, en_score FROM energy
+        SELECT code, en_score AS score FROM energy
         UNION
-        SELECT Country_code, Plastic_Pollution_Score FROM plastic_pollution
-    ) AS combined_scores
+        SELECT Country_code as code, Plastic_Pollution_Score as score FROM plastic_pollution
+    ) AS merged_topics
     GROUP BY code
 ) AS aggregated ON population.code = aggregated.code;
