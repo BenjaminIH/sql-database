@@ -36,4 +36,4 @@ SELECT
     green_countries.total_score
 FROM 
     green_countries 
-WHERE green_countries.population > 4000000;
+WHERE green_countries.population > 10000000;
