@@ -68,4 +68,3 @@ def graph_melt(df, title):
     # Show the plot
     plt.tight_layout()
     plt.show()
-    
