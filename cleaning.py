@@ -37,3 +37,10 @@ def world_plot(df, llabel):
     ax.axis('off')
     plt.title(f'World Map by {llabel}')
     plt.show()
+
+
+def get_country_code(country_name):
+    try:
+        return pycountry.countries.lookup(country_name).alpha_3
+    except LookupError:
+        return None
