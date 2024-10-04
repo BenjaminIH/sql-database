@@ -43,3 +43,6 @@ Further research could involve:
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository and submit a pull request if you'd like to make improvements or fix issues.
+
+## More details about the project
+https://docs.google.com/presentation/d/1lc8e9HWLfw1xe1fyaopK_YB0DSqb1Yk6Z3jygZQtpRo/edit?usp=sharing
