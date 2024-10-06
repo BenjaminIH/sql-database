@@ -68,3 +68,39 @@ def graph_melt(df, title):
     # Show the plot
     plt.tight_layout()
     plt.show()
+    
+
+def export_sql(df, engine,  columns_list, table_name):
+    df = df[columns_list]
+    df.to_sql(name=table_name, con=engine, if_exists='replace', index=False)
+    
+def import_csv(filename):
+    return pd.read_csv('sources/' + filename)
+
+def rename_columns(df, new_names_dict):
+    df = df.rename(new_names_dict, axis=1)
+    return df
+
+def clean_owid_data(schema) -> pd.DataFrame:
+    columns = {column_info["originalName"]: column_name 
+               for column_name, column_info in schema["columns"].items()}
+    df = import_csv(schema['filename'])
+    df = rename_columns(df, columns)
+    df = clean_column_names(df)
+    return df
+    
+def get_latest_year_data(df, group_column, year_column = 'year'):
+    df_latest = df.loc[df.groupby('country')['year'].idxmax()]
+    df_latest = drop_nan_values(df_latest)
+    return df_latest
+
+def drop_nan_values(df):
+    df = df.dropna()
+    return df
+
+def export_csv(df, file_name):
+    df.to_csv(file_name, index=False)
+    
+def clean_column_names(df):
+    df.columns = df.columns.str.lower().str.replace(' ', '_')
+    return df

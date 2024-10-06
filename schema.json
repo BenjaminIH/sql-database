@@ -1,0 +1,21 @@
+{
+    "population": {
+        "filename": "population.csv",
+        "columns": {
+            "country": {"originalName": "Entity", "type": "object"},
+            "population": {"originalName": "Population - Sex: all - Age: all - Variant: estimates", "type": "int"},
+            "code": {"originalName": "Code", "type": "object"},
+            "year": {"originalName": "Year", "type": "int"}
+            }
+    },
+    
+    "deforestation": {
+        "filename": "imported-deforestation.csv",
+        "columns": {
+            "country": {"originalName": "Entity", "type": "object"},
+            "imported_deforestation": {"originalName": "imported_deforestation", "type": "float"},
+            "code": {"originalName": "ISO_A3", "type": "object"},
+            "year": {"originalName": "Year", "type": "int"}
+            }
+    }
+}
